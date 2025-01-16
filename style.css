@@ -4,11 +4,34 @@
     background-color: black;
     color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-    
 }
+
+.top-img{
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+
 .content-top{
     font-size: 20px;
     text-align: center;
+}
+
+.content{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.accomplishment{
+    text-align: center;
+}
+.accomplishment ul{
+    list-style-position: inside;
+    margin: 0 auto;
 }
