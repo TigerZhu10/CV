@@ -96,12 +96,21 @@ body{
 }
 
 .project-img{
-    
+    display: block; 
+    width: 100%; 
+    height: auto; 
+    margin: 10px auto; 
+    border-radius: 10px; 
 }
 
 hr {
     margin: 20px 0;
     border: 1px solid #ccc;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
 }
 
 
