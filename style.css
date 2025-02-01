@@ -1,7 +1,3 @@
-/* * {
-    margin: 0;
-} */
-
 
 body{
     margin: 0;
@@ -9,23 +5,71 @@ body{
 }
 
 
-
 .background-top{
     background-color: black;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+/* Nav bar goes here: */
+.nav-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+}
+
+.nav{
+    float: left;
+}
+
+.nav a {
+    font-size: 18px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 18px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #111;
+}
+/* Nav bar ends here */
+
+.content-top{
+    padding: 50px;
+    font-size: 30px;
+}
+
+.content-top h1{
+    margin: 0;
+    padding: 0; 
+    font-weight: 200;
+    font-size: 48px;
+}
+
+.name-font{
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.content-top p{
+    font-size: 24px;
 }
 
 .top-img {
     display: block; 
-    margin-top: 0;
-}
-
-
-.content-top{
-    margin-top: 0;
-    padding-top: 50px;
-    font-size: 30px;
-    text-align: center;
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
 }
 
 .box-content{
@@ -36,12 +80,10 @@ body{
 }
 
 
-
 .content{
     text-align: left;
-    width: 550px;
-    margin: 0 auto;
-    margin-top: 30px;
+    width: 700px;
+    margin: 30px auto 0;
 }
 
 .bullet_set ul{
@@ -53,35 +95,13 @@ body{
     margin-right: 50px;
 }
 
+.project-img{
+    
+}
 
-.container {
-    display: grid;
-    grid-template-areas:
-    "header header"
-    "menu content"
-    "footer footer";
-    grid-template-columns: 1fr 3fr;
-    gap: 5px;
-    background-color: #2196F3;
-    padding: 5px;
-    margin: 80px
-}
-.container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-}
-.container > div.header {
-    grid-area: header;
-    text-align: center;
-}
-.container > div.menu {
-    grid-area: menu;
-}
-.container > div.content {
-    grid-area: content;
-}
-.container > div.footer {
-    grid-area: footer;
+hr {
+    margin: 20px 0;
+    border: 1px solid #ccc;
 }
 
 

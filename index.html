@@ -4,30 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
+    
+    <ul class = "nav-bar">
+        <li class = "nav"><a href="#myself">Myself</a></li>
+        <li class = "nav"><a href="#accomplishments">Accomplishments</a></li>
+        <li class = "nav"><a href="#skills">Skills</a></li>
+        <li class = "nav"><a href="#projects">Projects</a></li>
+    </ul>
 
     <div class="background-top">
         <div class="content-top">
-            <h1>Tiger</h1>
-            <p>Welcome to my Personal website</p>
+            <h1><span class = "name-font">I'm Tiger</span></h1>
+            <p>Welcome to My Personal Website</p>
         </div>
-        <img src="pro-img.jpg" alt="My photo" class = "top-img">
+        <img src="pro-img.png" alt="My photo" class = "top-img">
     </div>
 
     
 
     <div>
         <div class = "content">
-            <div class = box-content>
+            <div class = "box-content" id = "myself">
                 <h2>Myself</h2>
-                <p>Hi, I’m Tiger Zhu (HongLe Zhu). I’m an international student who loves computers and coding. I enjoy learning about new technology and creating cool projects that solve problems. When I’m not coding, you’ll probably find me playing basketball. It’s a sport I love because it keeps me active and helps me work well with others as a team.On this website, I’ll share my coding projects and some of the things I’ve learned along the way. Thanks for visiting, and I hope you enjoy exploring my site!</p>
+                <p style = "text-indent: 30px;">
+                    Hi, I'm Tiger Zhu (HongLe Zhu). I'm an international student who loves computers and coding. I enjoy learning about new technology and creating cool projects that solve problems.
+                    When I'm not coding, you'll probably find me playing basketball. It's a sport I love because it keeps me active and helps me work well with others as a team. On this website,
+                    I'll share my coding projects and some of the things I've learned along the way. Thanks for visiting, and I hope you enjoy exploring my site!
+                </p>
             </div>
         </div>
 
         <div class = "content">
-            <div class = "box-content">
+            <div class = "box-content" id = "accomplishments">
                 <h2>Accomplishments</h2>
                 <div class = "bullet_set">
                     <ul>
@@ -39,7 +51,7 @@
         </div>
 
         <div class = "content">
-            <div class = "box-content">
+            <div class = "box-content" id = "skills">
                 <h2>Skills</h2>
                 <div class = "bullet_set">
                     <ul>
@@ -54,14 +66,35 @@
             </div>
         </div>
 
-        
-            <h2 style = "text-align: center">Projects</h2>
-            <div class="container">
-                <div class="header"><h2>My Header</h2></div>
-                <div class="menu"><a href="#">Link 1</a><br><a href="#">Link 2</a><br><a href="#">Link 3</a></div>
-                <div class="content"><h3>Lorem Ipsum</h3><p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ridiculus sit nisl laoreet facilisis aliquet. Potenti dignissim litora eget montes rhoncus sapien neque urna. Cursus libero sapien integer magnis ligula lobortis quam ut.</p></div>
-                
+        <div class = "content">
+            <h1 style = "text-align: center;">Projects</h1>
+            <div class = "box-content" id = "projects">
+                <h2>Arduino Alarm Clock</h2>
+                <img src="clock-image.png" alt="clock image" class = "project-img">
+                <hr>
+                <p style = "text-indent: 30px;">
+                    The Arduino Alarm Clock is a beginner-friendly project that helped me learn arrays, for loops, millis(), state machines, and circuit connections. It features real-time display, alarm setting, and a buzzer that sounds at the set time. 
+                    The project required components like an Arduino Uno, 7-segment display, buzzer, push button, resistors, and jumper wires. Through this project, I improved my Arduino programming and circuit design skills.
+                    It was a great hands-on experience in both coding and electronics.
+                </p>
+                <!-- <a href = "project.html"> Check out more informations in this link:</a> -->
+            </div>
         </div>
+
+        <div class = "content">
+            <div class = "box-content" id = "projects">
+                <h2>Pygame: Feed the dragon</h2>
+                <img src="game.png" alt="feed the dragon image" class = "project-img">
+                <hr>
+                <p style = "text-indent: 30px;">
+                    The Arduino Alarm Clock is a beginner-friendly project that helped me learn arrays, for loops, millis(), state machines, and circuit connections. It features real-time display, alarm setting, and a buzzer that sounds at the set time. 
+                    The project required components like an Arduino Uno, 7-segment display, buzzer, push button, resistors, and jumper wires. Through this project, I improved my Arduino programming and circuit design skills.
+                    It was a great hands-on experience in both coding and electronics.
+                </p>
+                <!-- <a href = "project.html"> Check out more informations in this link:</a> -->
+            </div>
+        </div>
+        
         
     </div>
     
