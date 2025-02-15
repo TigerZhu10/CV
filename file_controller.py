@@ -6,16 +6,16 @@ def load_template(file_name):
     
     
 #这个是加载内容：
-base = load_template('base.html')
-nav_bar = load_template('nav-bar.html')
-background_top = load_template('background-top.html')
-about_me = load_template('about-me.html')
-accomplishments = load_template('accomplishments.html')
-skills = load_template('skills.html')
-alarm_clock = load_template('arduino-alarm-clock.html')
-feed_the_dragon = load_template('feed-the-dragon.html')
-personal_website = load_template('personal-website.html')
-footer = load_template('footer.html')
+base = load_template('./templates/home_page/base.html')
+nav_bar = load_template('./templates/home_page/nav-bar.html')
+background_top = load_template('./templates/home_page/background-top.html')
+about_me = load_template('./templates/home_page/about-me.html')
+accomplishments = load_template('./templates/home_page/accomplishments.html')
+skills = load_template('./templates/home_page/skills.html')
+alarm_clock = load_template('./templates/projects/arduino-alarm-clock.html')
+feed_the_dragon = load_template('./templates/projects/feed-the-dragon.html')
+personal_website = load_template('./templates/projects/personal-website.html')
+footer = load_template('./templates/home_page/footer.html')
 
 #此处进行替换
 index = base.replace('{{nav-bar}}', nav_bar)
