@@ -106,6 +106,10 @@ body{
     border-radius: 10px; 
 }
 
+.text-indent{
+    text-indent: 30px;
+}
+
 hr {
     margin: 20px 0;
     border: 1px solid #ccc;
