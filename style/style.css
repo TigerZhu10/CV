@@ -5,6 +5,7 @@ body{
 }
 
 
+/* for black space up top(content and the image) */
 .background-top{
     background-color: black;
     color: white;
@@ -12,6 +13,29 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;     
+}
+
+
+.content-top{
+    padding: 50px;
+}
+
+.content-top h1{
+    margin: 0;
+    padding: 0; 
+    font-weight: 200;
+    font-size: 48px;
+}
+
+.name-font{
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.content-top p{
+    font-size: 24px;
 }
 
 .pro-img {
@@ -48,30 +72,7 @@ body{
 .nav a:hover {
     background-color: #111;
 }
-
 /* Nav bar ends here */
-
-.content-top{
-    padding: 50px;
-}
-
-.content-top h1{
-    margin: 0;
-    padding: 0; 
-    font-weight: 200;
-    font-size: 48px;
-}
-
-.name-font{
-    font-family: "Playwrite IN", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.content-top p{
-    font-size: 24px;
-}
 
 
 .box-content{
@@ -81,13 +82,13 @@ body{
     border-radius: 20px;
 }
 
-
 .content{
     text-align: left;
     width: 700px;
     margin: 30px auto 0;
 }
 
+/* set the bullet to correct postion and size */
 .bullet_set ul{
     list-style-position: inside;
     margin: 0 auto;
@@ -115,6 +116,7 @@ footer {
     margin-top: 30px;
 }
 
+/* ----------------- responsive website ------------------- */
 @media (max-width: 1200px) {
     
     .name-font{

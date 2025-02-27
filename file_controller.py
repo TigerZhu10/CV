@@ -28,7 +28,6 @@ index = index.replace('{{feed-the-dragon}}', feed_the_dragon)
 index = index.replace('{{personal-website}}', personal_website)
 index = index.replace('{{footer}}', footer)
 
-
 #把替换的结果存到index.html里
 with open('index.html', 'w', encoding = 'utf-8') as f:
     f.write(index)
