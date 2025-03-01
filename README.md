@@ -1,1 +1,3 @@
 # CV
+## Simple Description
+#### This website is a personal portfolio designed to introduce myself, highlight my skills and accomplishments, and showcase my projects. Built with HTML and CSS, it features a modern and responsive design, ensuring a seamless experience across different devices. The navigation bar allows easy access to various sections, including an introduction, achievements, technical skills, and project highlights.

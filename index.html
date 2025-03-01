@@ -104,28 +104,22 @@
         <h2>Pygame: Feed the dragon</h2>
         <img src="./style/images/game.png" alt="feed the dragon image" class = "project-img">
         <hr>
-        <p style = "text-indent: 30px;">
+        <p class = "text-indent">
             "Feed the Dragon!" is a fast-paced arcade game where you control a dragon trying to catch flying coins. The dragon moves up and down using the arrow keys, avoiding missed coins that reduce lives.
             Each collected coin increases the player's score and gradually speeds up the game, making it more challenging. If all lives are lost, the game pauses, allowing the player to reset and try again.
         </p>
 
         <div class = "bullet_set">
             <ul>
-                <li>Event Handling - Detects key presses and quits events for player control.</li>
+                <li>Event Handling - Detects discrete and continues key presses and quits events for player control.</li>
                 <li>Collision Detection - Checks if the dragon catches the coin to update the score.</li>
-                <li>Game Loop - Continuously updates and redraws game elements smoothly.
-
-
-
-
-
-
-                </li>
+                <li>Game Loop - Continuously updates and redraws game elements smoothly.</li>
+                <li>Edge Detection - The dragon is restricted from moving beyond the top and bottom edges.</li>
+                <li>Coin Reset - The code resets the coin to the right with a random height if it moves off the left edge.</li>
             </ul>
         </div>
         <hr>
         <a href = "https://github.com/TigerZhu10/Feed_The_Dragon"> Check out more informations on my GitHub</a>
-        <!-- <a href = "project.html"> Check out more informations in this link:</a> -->
     </div>
 </div>
 
