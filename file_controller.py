@@ -12,6 +12,7 @@ background_top = load_template('./templates/home_page/background-top.html')
 about_me = load_template('./templates/home_page/about-me.html')
 accomplishments = load_template('./templates/home_page/accomplishments.html')
 skills = load_template('./templates/home_page/skills.html')
+space_invader = load_template('./templates/projects/space-invader.html')
 alarm_clock = load_template('./templates/projects/arduino-alarm-clock.html')
 feed_the_dragon = load_template('./templates/projects/feed-the-dragon.html')
 personal_website = load_template('./templates/projects/personal-website.html')
@@ -27,6 +28,7 @@ index = index.replace('{{arduino-alarm-clock}}', alarm_clock)
 index = index.replace('{{feed-the-dragon}}', feed_the_dragon)
 index = index.replace('{{personal-website}}', personal_website)
 index = index.replace('{{footer}}', footer)
+index = index.replace('{{space-invader}}', space_invader)
 
 #把替换的结果存到index.html里
 with open('index.html', 'w', encoding = 'utf-8') as f:
